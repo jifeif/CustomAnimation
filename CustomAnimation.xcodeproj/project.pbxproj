@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		0F27BF8C1D7FFACF00BE6285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F27BF8B1D7FFACF00BE6285 /* main.m */; };
 		0F27BF8F1D7FFACF00BE6285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F27BF8E1D7FFACF00BE6285 /* AppDelegate.m */; };
-		0F27BF921D7FFACF00BE6285 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F27BF911D7FFACF00BE6285 /* MasterViewController.m */; };
-		0F27BF951D7FFACF00BE6285 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F27BF941D7FFACF00BE6285 /* DetailViewController.m */; };
 		0F27BF981D7FFACF00BE6285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F27BF961D7FFACF00BE6285 /* Main.storyboard */; };
 		0F27BF9A1D7FFACF00BE6285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F27BF991D7FFACF00BE6285 /* Assets.xcassets */; };
 		0F27BF9D1D7FFACF00BE6285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F27BF9B1D7FFACF00BE6285 /* LaunchScreen.storyboard */; };
 		0F27BFA81D7FFACF00BE6285 /* CustomAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F27BFA71D7FFACF00BE6285 /* CustomAnimationTests.m */; };
 		0F27BFB31D7FFACF00BE6285 /* CustomAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F27BFB21D7FFACF00BE6285 /* CustomAnimationUITests.m */; };
+		0F27BFC21D7FFB5300BE6285 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F27BFC11D7FFB5300BE6285 /* FirstViewController.m */; };
+		0F27BFC51D7FFB7000BE6285 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F27BFC41D7FFB7000BE6285 /* SecondViewController.m */; };
+		0F27BFC81D8000CA00BE6285 /* CustomAnimationTranstion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F27BFC71D8000CA00BE6285 /* CustomAnimationTranstion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +41,6 @@
 		0F27BF8B1D7FFACF00BE6285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F27BF8D1D7FFACF00BE6285 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F27BF8E1D7FFACF00BE6285 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0F27BF901D7FFACF00BE6285 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		0F27BF911D7FFACF00BE6285 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		0F27BF931D7FFACF00BE6285 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		0F27BF941D7FFACF00BE6285 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		0F27BF971D7FFACF00BE6285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F27BF991D7FFACF00BE6285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F27BF9C1D7FFACF00BE6285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +51,12 @@
 		0F27BFAE1D7FFACF00BE6285 /* CustomAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F27BFB21D7FFACF00BE6285 /* CustomAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAnimationUITests.m; sourceTree = "<group>"; };
 		0F27BFB41D7FFACF00BE6285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F27BFC01D7FFB5300BE6285 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0F27BFC11D7FFB5300BE6285 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0F27BFC31D7FFB7000BE6285 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0F27BFC41D7FFB7000BE6285 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0F27BFC61D8000CA00BE6285 /* CustomAnimationTranstion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimationTranstion.h; sourceTree = "<group>"; };
+		0F27BFC71D8000CA00BE6285 /* CustomAnimationTranstion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnimationTranstion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +109,12 @@
 			children = (
 				0F27BF8D1D7FFACF00BE6285 /* AppDelegate.h */,
 				0F27BF8E1D7FFACF00BE6285 /* AppDelegate.m */,
-				0F27BF901D7FFACF00BE6285 /* MasterViewController.h */,
-				0F27BF911D7FFACF00BE6285 /* MasterViewController.m */,
-				0F27BF931D7FFACF00BE6285 /* DetailViewController.h */,
-				0F27BF941D7FFACF00BE6285 /* DetailViewController.m */,
+				0F27BFC01D7FFB5300BE6285 /* FirstViewController.h */,
+				0F27BFC11D7FFB5300BE6285 /* FirstViewController.m */,
+				0F27BFC31D7FFB7000BE6285 /* SecondViewController.h */,
+				0F27BFC41D7FFB7000BE6285 /* SecondViewController.m */,
+				0F27BFC61D8000CA00BE6285 /* CustomAnimationTranstion.h */,
+				0F27BFC71D8000CA00BE6285 /* CustomAnimationTranstion.m */,
 				0F27BF961D7FFACF00BE6285 /* Main.storyboard */,
 				0F27BF991D7FFACF00BE6285 /* Assets.xcassets */,
 				0F27BF9B1D7FFACF00BE6285 /* LaunchScreen.storyboard */,
@@ -275,10 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F27BFC51D7FFB7000BE6285 /* SecondViewController.m in Sources */,
+				0F27BFC81D8000CA00BE6285 /* CustomAnimationTranstion.m in Sources */,
 				0F27BF8F1D7FFACF00BE6285 /* AppDelegate.m in Sources */,
-				0F27BF921D7FFACF00BE6285 /* MasterViewController.m in Sources */,
+				0F27BFC21D7FFB5300BE6285 /* FirstViewController.m in Sources */,
 				0F27BF8C1D7FFACF00BE6285 /* main.m in Sources */,
-				0F27BF951D7FFACF00BE6285 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
